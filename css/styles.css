@@ -1,0 +1,80 @@
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+}
+.cajaVerde {
+background-color: chartreuse;
+height: 200px;
+width: 20%;
+display: flex;
+margin-right: 10px;
+}
+.cajaGris{
+    background-color: darkgrey;
+    height: 200px;
+    width: 80%;
+    display: flex;
+}
+.cajaAmarilla{
+    background-color: burlywood;
+    border: 5px solid black;
+    height: 75px;
+    width: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 600px;
+}
+.cajaVioleta{
+    height: 600px;
+    width: 25%;
+    margin-right: 5px;
+    background-color: blueviolet;
+}
+.contenedor3{
+    background-color: white;
+    flex-direction: row;
+    height: 600px;
+    width: 75%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cajaAzul{
+    background-color: rgb(30, 17, 211);
+    margin-left: 5px;
+    height: 295px;
+    width: 49%;
+    
+}
+.cajaRosa{
+    background-color: rgb(238, 16, 171);
+    margin-left: 5px;
+    height: 295px;
+    width: 49%;
+}
+.cajaNaranja{
+    background-color: orangered;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 295px;
+    width: 980px;
+}
+.cajaCeleste{
+    background-color: cyan;
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    border: 5px dashed black;
+}
